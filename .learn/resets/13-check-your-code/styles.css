@@ -1,0 +1,71 @@
+body {
+	background: black;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/*
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+*/
+.postcard {
+	background: white;
+	width: 500px;
+	height: auto;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	margin: 10px 10px 0px 20px;
+	padding: 20px 0px 0px 0px;
+}
+.postcard-header h1 {
+	width: 200px;
+	height: 50px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	margin: 0px 30px 30px 50px;
+}
+.body-rigth {
+	margin: 20px;
+}
+input {
+	color: black;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 16px;
+	border-color: black;
+}
+.input-container {
+	margin: 20px;
+	color: #555555;
+	padding: 5px;
+}
+.input-field {
+	width: 90%;
+	padding: 5px 0;
+	border: none;
+	border-bottom: 1px solid #717171;
+}
+.input-label {
+}
+.postcard-footer {
+	margin: 0px 30px 30px 28%;
+	padding: 10px;
+}
+button {
+	color: azure;
+	text-align: center;
+	background-color: rgb(3, 57, 75);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+	justify-content: center;
+	align-items: center;
+}

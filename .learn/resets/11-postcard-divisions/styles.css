@@ -1,0 +1,66 @@
+body {
+	background: black;
+	font-family: "Shadows Into Light", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+.postcard {
+	background: white;
+	width: 500px;
+	height: auto;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	margin: 10px 10px 0px 20px;
+	padding: 10px 0px 0px 0px;
+}
+.postcard-header h1 {
+	width: 400px;
+	height: 50px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+}
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+}
+.postcard-body {
+	display: flex;
+}
+.b_left {
+	margin: 0px 20px 10px 20px;
+}
+.b_rigth {
+	margin: 10px 0px 30px 0px;
+	padding: 0px 0px 0px 0px;
+}
+input {
+	font-family: "Shadows Into Light", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	border-color: rgb(240, 206, 206);
+}
+.input-field {
+	padding: 20px 20px 0px 10px;
+	margin-right: 20px;
+	border: none;
+	border-bottom: 1px solid #717171;
+}
+.postcard-footer {
+	margin: 0px 30px 50px 170px;
+	padding: 10px 0px 30px 0px;
+}
+button {
+	color: azure;
+	text-align: center;
+	background-color: rgb(0, 128, 255);
+	border-radius: 5px;
+	border-color: rgb(0, 108, 196);
+	padding: 10px;
+	margin: 5px;
+	font-family: "Shadows Into Light", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
